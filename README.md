@@ -1,12 +1,29 @@
-# SIR Model Simulations for Infectious Diseases
-This repository contains MATLAB code used to simulate the spread of infectious diseases using classical compartmental models: **SIR**, **SEIR**, **SIRD**, and **SEIRD**.
+# 🧬 Infectious Disease Simulation using SIR Model Variants
 
-## 🔬 Purpose
-The code supports a scientific research project titled:
+This repository contains MATLAB implementations of various compartmental models used to simulate the spread of four major infectious diseases—**Measles**, **Influenza**, **Ebola**, and **COVID-19**—using the SIR model and its variants (SIR, SEIR, SIRD, SEIRD).
 
-**"Modeling the Spread of Infectious Diseases Using SIR Model Variants: A Comparative Simulation Study of Measles, Influenza, Ebola, and COVID-19."**
+🧪 Research Project Title:  
+**Modeling the Spread of Infectious Diseases Using SIR Model Variants: A Comparative Simulation Study of Measles, Influenza, Ebola, and COVID-19.**
 
-It compares how different SIR-based models reflect the transmission dynamics of four major diseases and offers insights into intervention timing and disease burden.
+---
 
-## 📁 Contents
+## 📁 Folder Structure
+
+sir-model-simulations/ │ ├── Figures/ # All MATLAB figure outputs (.fig) │ ├── SIR Model.fig │ ├── SEIR Model.fig │ ├── SIRD Model.fig │ ├── SEIRD Model.fig │ ├── Normalized_Comparative_Graph.fig │ ├── main/ # Disease-specific simulation entry points │ ├── main_seir_influenza.m │ ├── main_seird_covid.m │ ├── main_sir_measles.m │ ├── main_sird_ebola.m │ ├── models/ # ODE model definitions for each variant │ ├── sir_model.m │ ├── seir_model.m │ ├── sird_model.m │ ├── seird_model.m │ ├── other/ # Analysis & visualization scripts │ ├── analyze_model_results.m │ ├── Normalized_Comparative_Graph.png │ ├── README.md # This file
+
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Requirements
+- **MATLAB R2021b** or newer
+- No toolboxes required beyond MATLAB’s built-in `ode45`
+
+### ▶️ To Run a Simulation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mutshidzi02/sir-model-simulations.git
+   cd sir-model-simulations
+
 
